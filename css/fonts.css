@@ -1,0 +1,13 @@
+/* Fraunces144pt */
+@font-face {
+    font-family: "Fraunces144pt";
+    src: url(../fonts/Fraunces144pt-SemiBold.woff);
+    font-weight: 600;
+}
+
+/* Manrope */
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope-Regular.woff);
+    font-weight: 400;
+}

@@ -1,0 +1,85 @@
+@import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --Dark-Purple: #24053E;
+    --Eucaplyptus: #44FFA1;
+    --Davys-Grey: #584D62;
+    --Ghost-White: #FCF8FF;
+    --White: #fff;
+    --Manrope: "Manrope";
+    --Fraunces: "Fraunces 144pt"
+}
+
+/* GLOBAL */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+ *,
+ *::before,
+ *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: var(--Manrope);
+ }
+
+
+ /* CONTAINER */
+
+ .container {
+    width: 1192px;
+    margin: auto;
+    padding-left: 39px;
+    padding-right: 39px;
+ }
+
+ /* BTN */
+
+ .btn {
+    max-width: 190px;
+    width: 100%;
+    background-color: var(--Eucaplyptus);
+    border: 2px solid var(--Eucaplyptus);
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: var(--Dark-Purple);
+    letter-spacing: -0.18px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: .4s;
+ }
+
+ .btn:hover {
+    background-color: transparent;
+    color: var(--Eucaplyptus);
+ }
+
+ .btn:active {
+    opacity: .7;
+ }
